@@ -1,0 +1,3 @@
+[submodule "KiCad-keyboard-matrix-generator"]
+	path = KiCad-keyboard-matrix-generator
+	url = https://github.com/arjhun/KiCad-keyboard-matrix-generator.git
