@@ -35,4 +35,15 @@ F 3 "~" H 4650 3350 50  0001 C CNN
 	1    4650 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L 4xxx:4001 U?
+U 1 1 6187ED53
+P 4150 3900
+F 0 "U?" H 4150 4225 50  0000 C CNN
+F 1 "4001" H 4150 4134 50  0000 C CNN
+F 2 "" H 4150 3900 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 4150 3900 50  0001 C CNN
+	1    4150 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
