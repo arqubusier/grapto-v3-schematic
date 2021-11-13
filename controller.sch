@@ -35,4 +35,15 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2300 60
 	1    2150 6000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R1
+U 1 1 618FF9D0
+P 3850 3600
+F 0 "R1" H 3920 3646 50  0000 L CNN
+F 1 "R" H 3920 3555 50  0000 L CNN
+F 2 "" V 3780 3600 50  0001 C CNN
+F 3 "~" H 3850 3600 50  0001 C CNN
+	1    3850 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
