@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3650 2450 0    60   Output ~ 0
-row0
 $Comp
 L Switch:SW_Push SW1
 U 1 1 6187F1DC
@@ -166,8 +164,6 @@ Wire Wire Line
 	7600 2450 7600 2700
 Wire Wire Line
 	3650 2450 3850 2450
-Text GLabel 3650 2950 0    60   Output ~ 0
-row1
 $Comp
 L Switch:SW_Push SW7
 U 1 1 6187F1E8
@@ -325,8 +321,6 @@ Wire Wire Line
 Connection ~ 8300 3200
 Wire Wire Line
 	3650 2950 3850 2950
-Text GLabel 3650 3450 0    60   Output ~ 0
-row2
 $Comp
 L Switch:SW_Push SW13
 U 1 1 6187F1F4
@@ -484,8 +478,6 @@ Wire Wire Line
 Connection ~ 8300 3700
 Wire Wire Line
 	3650 3450 3850 3450
-Text GLabel 3650 3950 0    60   Output ~ 0
-row3
 $Comp
 L Switch:SW_Push SW19
 U 1 1 6187F200
@@ -643,8 +635,6 @@ Wire Wire Line
 Connection ~ 8300 4200
 Wire Wire Line
 	3650 3950 3850 3950
-Text GLabel 3650 4450 0    60   Output ~ 0
-row4
 $Comp
 L Switch:SW_Push SW25
 U 1 1 6187F20C
@@ -671,8 +661,6 @@ Connection ~ 3850 4450
 Wire Wire Line
 	3850 4450 3850 4700
 Connection ~ 4550 4700
-Text GLabel 4550 4900 3    60   Input ~ 0
-col0
 Wire Wire Line
 	4550 2700 4550 3200
 Text Notes 3650 2350 0    180  ~ 36
@@ -703,8 +691,6 @@ Connection ~ 4600 4450
 Wire Wire Line
 	4600 4450 4600 4700
 Connection ~ 5300 4700
-Text GLabel 5300 4900 3    60   Input ~ 0
-col1
 Wire Wire Line
 	5300 2700 5300 3200
 Text Notes 3650 2350 0    180  ~ 36
@@ -735,8 +721,6 @@ Connection ~ 5350 4450
 Wire Wire Line
 	5350 4450 5350 4700
 Connection ~ 6050 4700
-Text GLabel 6050 4900 3    60   Input ~ 0
-col2
 Wire Wire Line
 	6050 2700 6050 3200
 Text Notes 3650 2350 0    180  ~ 36
@@ -767,8 +751,6 @@ Connection ~ 6100 4450
 Wire Wire Line
 	6100 4450 6100 4700
 Connection ~ 6800 4700
-Text GLabel 6800 4900 3    60   Input ~ 0
-col3
 Wire Wire Line
 	6800 2700 6800 3200
 Text Notes 3650 2350 0    180  ~ 36
@@ -799,8 +781,6 @@ Connection ~ 6850 4450
 Wire Wire Line
 	6850 4450 6850 4700
 Connection ~ 7550 4700
-Text GLabel 7550 4900 3    60   Input ~ 0
-col4
 Wire Wire Line
 	7550 2700 7550 3200
 Text Notes 3650 2350 0    180  ~ 36
@@ -830,8 +810,6 @@ $EndComp
 Wire Wire Line
 	7600 4450 7600 4700
 Connection ~ 8300 4700
-Text GLabel 8300 4900 3    60   Input ~ 0
-col5
 Wire Wire Line
 	8300 2700 8300 3200
 Text Notes 3650 2350 0    180  ~ 36
@@ -942,4 +920,28 @@ Text Notes 6900 5050 0    50   ~ 0
 Middle\nThumb switch
 Text Notes 7700 5050 0    50   ~ 0
 Outermost\nthumb switch\n
+Text HLabel 4550 4900 3    50   Input ~ 0
+col0
+Text HLabel 5300 4900 3    50   Input ~ 0
+col1
+Text HLabel 6050 4900 3    50   Input ~ 0
+col2
+Text HLabel 6800 4900 3    50   Input ~ 0
+col3
+Text HLabel 7550 4900 3    50   Input ~ 0
+col4
+Text HLabel 8300 4900 3    50   Input ~ 0
+col5
+Text Notes 3850 5400 0    50   ~ 0
+The switch/diode annotations are tied to mechanical positions.\nCorrect annotiation is SW1 top left, increasing horizontally left to right.
+Text HLabel 3650 2450 0    50   Output ~ 0
+row0
+Text HLabel 3650 2950 0    50   Output ~ 0
+row1
+Text HLabel 3650 3450 0    50   Output ~ 0
+row2
+Text HLabel 3650 3950 0    50   Output ~ 0
+row3
+Text HLabel 3650 4450 0    50   Output ~ 0
+row4
 $EndSCHEMATC
