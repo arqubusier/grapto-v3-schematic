@@ -223,30 +223,29 @@ VBUS
 $Comp
 L Device:C C7
 U 1 1 61A5C5DF
-P 1450 1250
-F 0 "C7" H 1565 1296 50  0000 L CNN
-F 1 "1u" H 1565 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1488 1100 50  0001 C CNN
-F 3 "~" H 1450 1250 50  0001 C CNN
-	1    1450 1250
+P 1850 1250
+F 0 "C7" H 1965 1296 50  0000 L CNN
+F 1 "1u" H 1965 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 1100 50  0001 C CNN
+F 3 "~" H 1850 1250 50  0001 C CNN
+	1    1850 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 1550 3    50   Input ~ 0
+Text GLabel 2250 1550 3    50   Input ~ 0
 0V
 Wire Wire Line
-	1450 1550 1450 1400
-Connection ~ 1450 1100
+	2250 1550 2250 1400
 Text Notes 750  800  0    50   ~ 0
 Power rail
 $Comp
 L Device:Fuse F1
 U 1 1 61A6A630
-P 2350 1100
-F 0 "F1" V 2153 1100 50  0000 C CNN
-F 1 "200m" V 2244 1100 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2280 1100 50  0001 C CNN
-F 3 "~" H 2350 1100 50  0001 C CNN
-	1    2350 1100
+P 1400 1100
+F 0 "F1" V 1203 1100 50  0000 C CNN
+F 1 "200m" V 1294 1100 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1330 1100 50  0001 C CNN
+F 3 "~" H 1400 1100 50  0001 C CNN
+	1    1400 1100
 	0    1    1    0   
 $EndComp
 Text GLabel 3450 1100 2    50   Output ~ 0
@@ -311,8 +310,6 @@ Wire Wire Line
 Text Notes 3500 1500 0    50   ~ 0
 PWR\nLED
 Wire Wire Line
-	1450 1100 1850 1100
-Wire Wire Line
 	950  1100 1050 1100
 NoConn ~ 6200 5200
 NoConn ~ 6200 4500
@@ -341,8 +338,6 @@ Wire Notes Line
 	2550 4400 650  4400
 Wire Notes Line
 	650  4250 3600 4250
-Wire Wire Line
-	2500 1100 2850 1100
 $Comp
 L Connector:TestPoint TP1
 U 1 1 61B9DA5D
@@ -356,7 +351,6 @@ F 3 "~" H 3050 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 1100 3200 1100
-Connection ~ 2850 1100
 Text Notes 2950 6500 0    50   ~ 0
 Crystal C value is\ndetermined by\nC=2*CL - 2*Cstray\nAssume Cstray =4\nC =2*20 - 2*4 = 32 [pF]
 Wire Notes Line
@@ -411,7 +405,7 @@ U 1 1 6193A64E
 P 5600 4500
 F 0 "U1" H 5900 2700 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 6150 2600 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5600 4500 50  0001 C CIN
+F 2 "grapto-v3-schematic:QFP-44_10x10_Pitch0.8mm_Hand_solder" H 5600 4500 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5600 4500 50  0001 C CNN
 	1    5600 4500
 	1    0    0    -1  
@@ -427,9 +421,6 @@ F 3 "" H 1050 1100 50  0001 C CNN
 	1    1050 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 1050 1100
-Wire Wire Line
-	1050 1100 1450 1100
 $Comp
 L power:+5V #PWR0102
 U 1 1 61BCD0E3
@@ -487,17 +478,14 @@ Connection ~ 3200 1100
 $Comp
 L Device:C C12
 U 1 1 61C7133E
-P 1850 1250
-F 0 "C12" H 1965 1296 50  0000 L CNN
-F 1 "1u" H 1965 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 1100 50  0001 C CNN
-F 3 "~" H 1850 1250 50  0001 C CNN
-	1    1850 1250
+P 2250 1250
+F 0 "C12" H 2365 1296 50  0000 L CNN
+F 1 "1u" H 2365 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2288 1100 50  0001 C CNN
+F 3 "~" H 2250 1250 50  0001 C CNN
+	1    2250 1250
 	1    0    0    -1  
 $EndComp
-Connection ~ 1850 1100
-Wire Wire Line
-	1850 1100 2200 1100
 Text GLabel 1850 1550 3    50   Input ~ 0
 0V
 Wire Wire Line
@@ -689,4 +677,16 @@ Wire Wire Line
 	3750 5200 3750 5250
 Wire Wire Line
 	3750 5650 3750 5700
+Wire Wire Line
+	1050 1100 1250 1100
+Connection ~ 1050 1100
+Wire Wire Line
+	1550 1100 1850 1100
+Connection ~ 2850 1100
+Connection ~ 1850 1100
+Wire Wire Line
+	1850 1100 2250 1100
+Connection ~ 2250 1100
+Wire Wire Line
+	2250 1100 2850 1100
 $EndSCHEMATC

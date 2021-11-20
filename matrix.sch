@@ -647,17 +647,6 @@ F 3 "" H 4050 4900 50  0001 C CNN
 	1    4050 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D25
-U 1 1 6187F20D
-P 4400 4700
-F 0 "D25" H 4410 4900 50  0000 L CNN
-F 1 "D" H 4400 4600 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4400 4900 50  0001 C CNN
-F 3 "" H 4400 4900 50  0001 C CNN
-	1    4400 4700
-	1    0    0    -1  
-$EndComp
 Connection ~ 3850 4450
 Wire Wire Line
 	3850 4450 3850 4700
@@ -917,9 +906,9 @@ Wire Wire Line
 	8300 4700 8300 4900
 Text Notes 3850 5050 0    50   ~ 0
 Innermost\nthumb switch
-Text Notes 6900 5050 0    50   ~ 0
+Text Notes 7700 5100 0    50   ~ 0
 Middle\nThumb switch
-Text Notes 7700 5050 0    50   ~ 0
+Text Notes 6950 5100 0    50   ~ 0
 Outermost\nthumb switch\n
 Text HLabel 4550 4900 3    50   Input ~ 0
 col0
@@ -945,4 +934,15 @@ Text HLabel 3650 3950 0    50   Output ~ 0
 row3
 Text HLabel 3650 4450 0    50   Output ~ 0
 row4
+$Comp
+L Device:D D25
+U 1 1 6187F20D
+P 4400 4700
+F 0 "D25" H 4410 4900 50  0000 L CNN
+F 1 "D" H 4400 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4400 4900 50  0001 C CNN
+F 3 "" H 4400 4900 50  0001 C CNN
+	1    4400 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
