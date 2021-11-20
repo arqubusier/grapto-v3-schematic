@@ -14,28 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 618FD9E9
-P 1500 5550
-F 0 "J1" H 1607 6417 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1607 6326 50  0000 C CNN
-F 2 "grapto-v3-schematic:Connector_GCT_USB4500" H 1650 5550 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1650 5550 50  0001 C CNN
-	1    1500 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J2
-U 1 1 618FEA92
-P 1400 3150
-F 0 "J2" H 1507 4017 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1507 3926 50  0000 C CNN
-F 2 "grapto-v3-schematic:Connector_GCT_USB4500" H 1550 3150 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1550 3150 50  0001 C CNN
-	1    1400 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 618FF9D0
 P 2800 3250
@@ -156,12 +134,10 @@ Wire Wire Line
 	2650 3150 2000 3150
 Wire Wire Line
 	2000 3050 2000 3150
-Connection ~ 2000 3150
 Wire Wire Line
 	2000 3250 2000 3350
 Wire Wire Line
 	2000 3250 2650 3250
-Connection ~ 2000 3250
 Text Label 2950 3250 0    50   ~ 0
 USB_FULL_P
 Text Label 2950 3150 0    50   ~ 0
@@ -689,4 +665,28 @@ Wire Wire Line
 Connection ~ 2250 1100
 Wire Wire Line
 	2250 1100 2850 1100
+Connection ~ 2000 3150
+Connection ~ 2000 3250
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 618FEA92
+P 1400 3150
+F 0 "J2" H 1507 4017 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1507 3926 50  0000 C CNN
+F 2 "grapto-v3-schematic:Connector_GCT_USB4500" H 1550 3150 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1550 3150 50  0001 C CNN
+	1    1400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 618FD9E9
+P 1500 5550
+F 0 "J1" H 1607 6417 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1607 6326 50  0000 C CNN
+F 2 "grapto-v3-schematic:Connector_GCT_USB4500" H 1650 5550 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1650 5550 50  0001 C CNN
+	1    1500 5550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

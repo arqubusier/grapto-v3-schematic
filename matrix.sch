@@ -19,7 +19,7 @@ U 1 1 6187F1DC
 P 4050 2700
 F 0 "SW1" H 4060 2900 50  0000 L CNN
 F 1 "SW_Push" H 4050 2600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4050 2900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4050 2900 50  0001 C CNN
 F 3 "" H 4050 2900 50  0001 C CNN
 	1    4050 2700
 	1    0    0    -1  
@@ -45,7 +45,7 @@ U 1 1 6187F1DE
 P 4800 2700
 F 0 "SW2" H 4810 2900 50  0000 L CNN
 F 1 "SW_Push" H 4800 2600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4800 2900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4800 2900 50  0001 C CNN
 F 3 "" H 4800 2900 50  0001 C CNN
 	1    4800 2700
 	1    0    0    -1  
@@ -70,7 +70,7 @@ U 1 1 6187F1E0
 P 5550 2700
 F 0 "SW3" H 5560 2900 50  0000 L CNN
 F 1 "SW_Push" H 5550 2600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 5550 2900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 5550 2900 50  0001 C CNN
 F 3 "" H 5550 2900 50  0001 C CNN
 	1    5550 2700
 	1    0    0    -1  
@@ -95,7 +95,7 @@ U 1 1 6187F1E2
 P 6300 2700
 F 0 "SW4" H 6310 2900 50  0000 L CNN
 F 1 "SW_Push" H 6300 2600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 6300 2900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 6300 2900 50  0001 C CNN
 F 3 "" H 6300 2900 50  0001 C CNN
 	1    6300 2700
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 6187F1E4
 P 7050 2700
 F 0 "SW5" H 7060 2900 50  0000 L CNN
 F 1 "SW_Push" H 7050 2600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7050 2900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7050 2900 50  0001 C CNN
 F 3 "" H 7050 2900 50  0001 C CNN
 	1    7050 2700
 	1    0    0    -1  
@@ -145,7 +145,7 @@ U 1 1 6187F1E6
 P 7800 2700
 F 0 "SW6" H 7810 2900 50  0000 L CNN
 F 1 "SW_Push" H 7800 2600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7800 2900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7800 2900 50  0001 C CNN
 F 3 "" H 7800 2900 50  0001 C CNN
 	1    7800 2700
 	1    0    0    -1  
@@ -171,7 +171,7 @@ U 1 1 6187F1E8
 P 4050 3200
 F 0 "SW7" H 4060 3400 50  0000 L CNN
 F 1 "SW_Push" H 4050 3100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4050 3400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4050 3400 50  0001 C CNN
 F 3 "" H 4050 3400 50  0001 C CNN
 	1    4050 3200
 	1    0    0    -1  
@@ -197,7 +197,7 @@ U 1 1 6187F1EA
 P 4800 3200
 F 0 "SW8" H 4810 3400 50  0000 L CNN
 F 1 "SW_Push" H 4800 3100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4800 3400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4800 3400 50  0001 C CNN
 F 3 "" H 4800 3400 50  0001 C CNN
 	1    4800 3200
 	1    0    0    -1  
@@ -223,7 +223,7 @@ U 1 1 6187F1EC
 P 5550 3200
 F 0 "SW9" H 5560 3400 50  0000 L CNN
 F 1 "SW_Push" H 5550 3100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 5550 3400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 5550 3400 50  0001 C CNN
 F 3 "" H 5550 3400 50  0001 C CNN
 	1    5550 3200
 	1    0    0    -1  
@@ -249,7 +249,7 @@ U 1 1 6187F1EE
 P 6300 3200
 F 0 "SW10" H 6310 3400 50  0000 L CNN
 F 1 "SW_Push" H 6300 3100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 6300 3400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 6300 3400 50  0001 C CNN
 F 3 "" H 6300 3400 50  0001 C CNN
 	1    6300 3200
 	1    0    0    -1  
@@ -275,7 +275,7 @@ U 1 1 6187F1F0
 P 7050 3200
 F 0 "SW11" H 7060 3400 50  0000 L CNN
 F 1 "SW_Push" H 7050 3100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7050 3400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7050 3400 50  0001 C CNN
 F 3 "" H 7050 3400 50  0001 C CNN
 	1    7050 3200
 	1    0    0    -1  
@@ -301,7 +301,7 @@ U 1 1 6187F1F2
 P 7800 3200
 F 0 "SW12" H 7810 3400 50  0000 L CNN
 F 1 "SW_Push" H 7800 3100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7800 3400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7800 3400 50  0001 C CNN
 F 3 "" H 7800 3400 50  0001 C CNN
 	1    7800 3200
 	1    0    0    -1  
@@ -328,7 +328,7 @@ U 1 1 6187F1F4
 P 4050 3700
 F 0 "SW13" H 4060 3900 50  0000 L CNN
 F 1 "SW_Push" H 4050 3600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4050 3900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4050 3900 50  0001 C CNN
 F 3 "" H 4050 3900 50  0001 C CNN
 	1    4050 3700
 	1    0    0    -1  
@@ -354,7 +354,7 @@ U 1 1 6187F1F6
 P 4800 3700
 F 0 "SW14" H 4810 3900 50  0000 L CNN
 F 1 "SW_Push" H 4800 3600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4800 3900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4800 3900 50  0001 C CNN
 F 3 "" H 4800 3900 50  0001 C CNN
 	1    4800 3700
 	1    0    0    -1  
@@ -380,7 +380,7 @@ U 1 1 6187F1F8
 P 5550 3700
 F 0 "SW15" H 5560 3900 50  0000 L CNN
 F 1 "SW_Push" H 5550 3600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 5550 3900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 5550 3900 50  0001 C CNN
 F 3 "" H 5550 3900 50  0001 C CNN
 	1    5550 3700
 	1    0    0    -1  
@@ -406,7 +406,7 @@ U 1 1 6187F1FA
 P 6300 3700
 F 0 "SW16" H 6310 3900 50  0000 L CNN
 F 1 "SW_Push" H 6300 3600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 6300 3900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 6300 3900 50  0001 C CNN
 F 3 "" H 6300 3900 50  0001 C CNN
 	1    6300 3700
 	1    0    0    -1  
@@ -432,7 +432,7 @@ U 1 1 6187F1FC
 P 7050 3700
 F 0 "SW17" H 7060 3900 50  0000 L CNN
 F 1 "SW_Push" H 7050 3600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7050 3900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7050 3900 50  0001 C CNN
 F 3 "" H 7050 3900 50  0001 C CNN
 	1    7050 3700
 	1    0    0    -1  
@@ -458,7 +458,7 @@ U 1 1 6187F1FE
 P 7800 3700
 F 0 "SW18" H 7810 3900 50  0000 L CNN
 F 1 "SW_Push" H 7800 3600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7800 3900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7800 3900 50  0001 C CNN
 F 3 "" H 7800 3900 50  0001 C CNN
 	1    7800 3700
 	1    0    0    -1  
@@ -485,7 +485,7 @@ U 1 1 6187F200
 P 4050 4200
 F 0 "SW19" H 4060 4400 50  0000 L CNN
 F 1 "SW_Push" H 4050 4100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4050 4400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4050 4400 50  0001 C CNN
 F 3 "" H 4050 4400 50  0001 C CNN
 	1    4050 4200
 	1    0    0    -1  
@@ -511,7 +511,7 @@ U 1 1 6187F202
 P 4800 4200
 F 0 "SW20" H 4810 4400 50  0000 L CNN
 F 1 "SW_Push" H 4800 4100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4800 4400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4800 4400 50  0001 C CNN
 F 3 "" H 4800 4400 50  0001 C CNN
 	1    4800 4200
 	1    0    0    -1  
@@ -537,7 +537,7 @@ U 1 1 6187F204
 P 5550 4200
 F 0 "SW21" H 5560 4400 50  0000 L CNN
 F 1 "SW_Push" H 5550 4100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 5550 4400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 5550 4400 50  0001 C CNN
 F 3 "" H 5550 4400 50  0001 C CNN
 	1    5550 4200
 	1    0    0    -1  
@@ -563,7 +563,7 @@ U 1 1 6187F206
 P 6300 4200
 F 0 "SW22" H 6310 4400 50  0000 L CNN
 F 1 "SW_Push" H 6300 4100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 6300 4400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 6300 4400 50  0001 C CNN
 F 3 "" H 6300 4400 50  0001 C CNN
 	1    6300 4200
 	1    0    0    -1  
@@ -589,7 +589,7 @@ U 1 1 6187F208
 P 7050 4200
 F 0 "SW23" H 7060 4400 50  0000 L CNN
 F 1 "SW_Push" H 7050 4100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7050 4400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7050 4400 50  0001 C CNN
 F 3 "" H 7050 4400 50  0001 C CNN
 	1    7050 4200
 	1    0    0    -1  
@@ -615,7 +615,7 @@ U 1 1 6187F20A
 P 7800 4200
 F 0 "SW24" H 7810 4400 50  0000 L CNN
 F 1 "SW_Push" H 7800 4100 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7800 4400 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7800 4400 50  0001 C CNN
 F 3 "" H 7800 4400 50  0001 C CNN
 	1    7800 4200
 	1    0    0    -1  
@@ -642,7 +642,7 @@ U 1 1 6187F20C
 P 4050 4700
 F 0 "SW25" H 4060 4900 50  0000 L CNN
 F 1 "SW_Push" H 4050 4600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4050 4900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4050 4900 50  0001 C CNN
 F 3 "" H 4050 4900 50  0001 C CNN
 	1    4050 4700
 	1    0    0    -1  
@@ -661,7 +661,7 @@ U 1 1 6187F20E
 P 4800 4700
 F 0 "SW26" H 4810 4900 50  0000 L CNN
 F 1 "SW_Push" H 4800 4600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 4800 4900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 4800 4900 50  0001 C CNN
 F 3 "" H 4800 4900 50  0001 C CNN
 	1    4800 4700
 	1    0    0    -1  
@@ -691,7 +691,7 @@ U 1 1 6187F210
 P 5550 4700
 F 0 "SW27" H 5560 4900 50  0000 L CNN
 F 1 "SW_Push" H 5550 4600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 5550 4900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 5550 4900 50  0001 C CNN
 F 3 "" H 5550 4900 50  0001 C CNN
 	1    5550 4700
 	1    0    0    -1  
@@ -721,7 +721,7 @@ U 1 1 6187F212
 P 6300 4700
 F 0 "SW28" H 6310 4900 50  0000 L CNN
 F 1 "SW_Push" H 6300 4600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 6300 4900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 6300 4900 50  0001 C CNN
 F 3 "" H 6300 4900 50  0001 C CNN
 	1    6300 4700
 	1    0    0    -1  
@@ -751,7 +751,7 @@ U 1 1 6187F214
 P 7050 4700
 F 0 "SW29" H 7060 4900 50  0000 L CNN
 F 1 "SW_Push" H 7050 4600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7050 4900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7050 4900 50  0001 C CNN
 F 3 "" H 7050 4900 50  0001 C CNN
 	1    7050 4700
 	1    0    0    -1  
@@ -781,7 +781,7 @@ U 1 1 6187F216
 P 7800 4700
 F 0 "SW30" H 7810 4900 50  0000 L CNN
 F 1 "SW_Push" H 7800 4600 50  0000 C CNN
-F 2 "kaihl_choc:SW_Kailh_Choc_V1" H 7800 4900 50  0001 C CNN
+F 2 "grapto-v3-schematic:SW_Kailh_Choc_V1" H 7800 4900 50  0001 C CNN
 F 3 "" H 7800 4900 50  0001 C CNN
 	1    7800 4700
 	1    0    0    -1  
